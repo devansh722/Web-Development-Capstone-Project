@@ -1,1 +1,74 @@
 
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #222;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin:15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px;
+    background-color: #dbeafe;
+}
+
+/* Introduction */
+.intro {
+    text-align: center;
+}
+
+/* Profile Photo */
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Other Sections */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Headings */
+h2 {
+    color: #2563eb;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
